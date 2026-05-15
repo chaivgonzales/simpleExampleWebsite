@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website - Home</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #333;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 10px 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 14px;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background: #ff9800;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            background: linear-gradient(to right, #2193b0, #6dd5ed);
+            color: white;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            border: none;
+            background: #ff9800;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .hero button:hover {
+            background: #e68900;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="sampleDOM_Cond_Loop.html">DOM with Cond and Loop 1</a></li>
+            <li><a href="sampleDOM_Cond_Loop2.html">DOM with Cond and Loop 2</a></li>
+            <li><a href="sampleDOMwithFor.html">DOM with For</a></li>
+            <li><a href="sampleDOMwithForIn.html">DOM with For in</a></li>
+            <li><a href="sampleDOMwithIfElse.html">DOM with if else</a></li>
+            <li><a href="sampleDOMwithIfElseIfElse.html">DOM with if else if else</a></li>
+            <li><a href="sampleDOMwithSwitch.html">DOM with Switch</a></li>
+            <li><a href="sampleDOMwithWhile.html">DOM with While</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Create modern and responsive websites easily.</p>
+        <button>Learn More</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
